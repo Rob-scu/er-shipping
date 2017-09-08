@@ -1,3 +1,4 @@
 .idea
 file.dat
-node_modules/*.*
+node_modules
+.DS_Store
