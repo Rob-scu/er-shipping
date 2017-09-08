@@ -18,7 +18,7 @@ app.get('/shipments', function (req, res) {
 })
 
 app.post('/shipments', function (req, res) {
-
+    res.send('got it.')
 })
 
 app.listen(process.env.PORT, function () {
