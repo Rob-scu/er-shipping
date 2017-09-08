@@ -13,6 +13,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/new', function (req, res) {
+    //interesting
     res.send({
         something: 'else',
         someArray: [
